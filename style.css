@@ -17,6 +17,11 @@ h4 {
   padding: 20px 40px;
   margin-bottom: 20px;
   border-top: 10px solid #1098ad;
+  text-align: center;
+}
+
+.article-header {
+  position: relative;
 }
 
 .container {
@@ -27,6 +32,13 @@ h4 {
 
 .C-nav {
   padding-top: 10px;
+  text-align: center;
+}
+
+.C-nav a:link {
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
 }
 
 body {
@@ -37,6 +49,23 @@ body {
   height: auto;
   width: 100%;
   margin-bottom: 15px;
+}
+
+.related-author {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* list of related post */
+.related-post {
+  list-style: none;
+}
+
+/* whole related post body */
+.aside-related {
+  background-color: #f1f1f1;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
 }
 
 h1 {
@@ -74,22 +103,6 @@ p {
 } */
 
 /* related post authors. */
-.related-author {
-  font-size: 14px;
-  font-weight: bold;
-}
-
-/* list of related post */
-.related-post {
-  list-style: none;
-}
-
-/* whole related post body */
-.aside-related {
-  background-color: #f1f1f1;
-  border-top: 5px solid #1098ad;
-  border-bottom: 5px solid #1098ad;
-}
 
 li:first-child {
   font-weight: bold;
@@ -130,4 +143,25 @@ a:active {
 ol,
 ul {
   margin-left: 60px;
+}
+
+#like {
+  position: absolute;
+  padding: 10px;
+  bottom: 30px;
+  right: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+h1::first-letter {
+  font-style: normal;
+}
+
+/* p::first-letter {
+  font-size: large;
+} */
+
+h2 + p::first-letter {
+  font-size: x-large;
 }
