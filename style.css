@@ -17,29 +17,28 @@ h4 {
   padding: 20px 40px;
   margin-bottom: 20px;
   border-top: 10px solid #1098ad;
-  text-align: center;
 }
 
-.article-header {
+/* .article-header {
   position: relative;
-}
+} */
 
 .container {
-  width: 80%;
+  width: 1200px;
   margin: auto auto;
   background-color: cornsilk;
 }
 
-.C-nav {
+/* .C-nav {
   padding-top: 10px;
   text-align: center;
-}
+} */
 
-.C-nav a:link {
+/* .C-nav a:link {
   margin-right: 10px;
   margin-top: 10px;
   display: inline-block;
-}
+} */
 
 body {
   background-color: cornsilk;
@@ -86,10 +85,9 @@ h3 {
 
 h4 {
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: 20px;
   text-align: center;
-  margin-bottom: 10px;
 }
 
 p {
@@ -114,7 +112,8 @@ li {
 }
 
 #author {
-  font-size: 16px;
+  font-size: 13px;
+  margin-bottom: 0;
 }
 
 #copyright {
@@ -164,4 +163,51 @@ h1::first-letter {
 
 h2 + p::first-letter {
   font-size: x-large;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.C-nav a {
+  margin-right: 10px;
+}
+
+.author-box {
+  display: flex;
+  align-items: end;
+  margin-bottom: 10px;
+}
+
+.layout-box {
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  gap: 200px;
+}
+
+.aside-related {
+  width: 300px;
+}
+
+article {
+  flex: 1 0;
+}
+
+.related-post {
+  margin-left: 0px;
+}
+
+.related-post p {
+  font-weight: 100;
+  text-indent: 0px;
+  margin-top: 8px;
+}
+
+.related-auth-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
 }
