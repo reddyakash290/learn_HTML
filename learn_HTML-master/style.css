@@ -1,0 +1,213 @@
+* {
+  font-family: sans-serif;
+  color: #444;
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #1098ad;
+}
+
+.main-header {
+  background-color: #f1f1f1;
+  padding: 20px 40px;
+  margin-bottom: 20px;
+  border-top: 10px solid #1098ad;
+}
+
+/* .article-header {
+  position: relative;
+} */
+
+.container {
+  width: 1200px;
+  margin: auto auto;
+  background-color: cornsilk;
+}
+
+/* .C-nav {
+  padding-top: 10px;
+  text-align: center;
+} */
+
+/* .C-nav a:link {
+  margin-right: 10px;
+  margin-top: 10px;
+  display: inline-block;
+} */
+
+body {
+  background-color: cornsilk;
+}
+
+.code-img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.related-author {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* list of related post */
+.related-post {
+  list-style: none;
+}
+
+/* whole related post body */
+.aside-related {
+  background-color: #f1f1f1;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+h4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-indent: 10px;
+}
+
+/* p:first-child {
+  text-indent: 5px;
+} */
+
+/* related post authors. */
+
+li:first-child {
+  font-weight: bold;
+}
+
+li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#author {
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+#copyright {
+  font-size: 12px;
+}
+
+a {
+  color: rgb(255, 165, 48);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  font-size: larger;
+}
+
+a:active {
+  background-color: black;
+}
+
+/* a:visited {
+  color: royalblue;
+} */
+
+ol,
+ul {
+  margin-left: 60px;
+}
+
+#like {
+  position: absolute;
+  padding: 10px;
+  bottom: 30px;
+  right: 10px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+h1::first-letter {
+  font-style: normal;
+}
+
+/* p::first-letter {
+  font-size: large;
+} */
+
+h2 + p::first-letter {
+  font-size: x-large;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.C-nav a {
+  margin-right: 10px;
+}
+
+.author-box {
+  display: flex;
+  align-items: end;
+  margin-bottom: 10px;
+}
+
+.layout-box {
+  display: flex;
+  align-items: flex-start;
+  /* justify-content: space-between; */
+  gap: 200px;
+}
+
+.aside-related {
+  width: 300px;
+}
+
+article {
+  flex: 1 0;
+}
+
+.related-post {
+  margin-left: 0px;
+}
+
+.related-post p {
+  font-weight: 100;
+  text-indent: 0px;
+  margin-top: 8px;
+}
+
+.related-auth-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
